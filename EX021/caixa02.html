@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color:whitesmoke ;
+            padding: 3px;
+            box-shadow: 5px 3px 5px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav> a:hover{
+            text-decoration: underline;
+            
+        }
+        article{
+            background-color: #d3d3d3;
+        }
+        article > aside{
+            background-color: #adacac;
+        }
+        main{ 
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px ;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Noticias Legais</p>
+            <article>
+                <h2>Noticia sobre mim</h2>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ut maxime ipsa voluptatem amet adipisci expedita nam obcaecati, nesciunt aspernatur error delectus. Soluta alias sit deserunt. Eius blanditiis aliquam corporis!</p>
+                 <aside>
+                    <p>Artigo escrito por IgorPLobo</p>
+                 </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por IgorPLobo</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
